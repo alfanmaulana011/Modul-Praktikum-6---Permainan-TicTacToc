@@ -35,7 +35,7 @@ GameState { // to save as "GameState.java"
 }
 
 Penjelasan Program:
-Program ini memiliki fungsi yang sama seperti 
+Program ini memiliki fungsi yang sama seperti Program state.java 
 
 ### Code Cell.java:
 import java.awt.Graphics;
@@ -79,6 +79,7 @@ public class Cell {
 }
 
 Penjelasan Program:
+Code ini merepresentasikan setiap sel pada papan permainan. Setiap sel memiliki konten yang bisa berupa EMPTY, CROSS, atau NOUGHT. Metode paint digunakan untuk menggambar sel pada layar.
 
 ### Board.java:
 import java.awt.*;
@@ -314,5 +315,23 @@ public class GameMain extends JPanel {
       });
    }
 }
+
+
+### Hasil
+1. Kondisi ketika permainan baru dimulai
+![image](https://github.com/alfanmaulana011/Modul-Praktikum-6---Permainan-TicTacToc/assets/148432308/dcc1d948-150a-4948-bc4c-933819b4b144)
+
+2. Kondisi ketika pemain dengan simbol silang "X" memenangkan permainan
+![image](https://github.com/alfanmaulana011/Modul-Praktikum-6---Permainan-TicTacToc/assets/148432308/8738d2bb-32ac-4e6a-b870-d1de351f7cca)
+
+3. Kondisi ketika hasil akhir dari permainan seri atau imbang
+![image](https://github.com/alfanmaulana011/Modul-Praktikum-6---Permainan-TicTacToc/assets/148432308/631acf89-2316-4f85-9ad5-0f2eb9a3b368)
+
+4. Kondisi ketika pemain dengan simbol lingkaran "O" memenangkan permainan
+![image](https://github.com/alfanmaulana011/Modul-Praktikum-6---Permainan-TicTacToc/assets/148432308/92cc7b30-e6be-40f6-a362-8f47b9efa4f7)
+
+### Mengubah beberapa bagian pada program
+
+ 
 
 Penjelasan Program:
