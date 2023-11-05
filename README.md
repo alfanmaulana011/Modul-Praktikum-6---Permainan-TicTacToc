@@ -10,6 +10,11 @@ PLAYING, DRAW, CROSS_WON, NOUGHT_WON
 }
 
 Penjelasan Program:
+Program diatas mendefinisikan 4 kemungkinan yang akan terjadi dalam permainan tictactoe, dianataranya:
+1. PLAYING: Mendefinisikan permainan sedang berlangsung
+2. DRAW: Kondisi ini akan terjadi ketika semua sel di papan permainan telah diisi, tetapi tidak ada pemenang dalam permainan tictactoe sehingga permainan dianggap seri atau imbang
+3. CROSS_WON: Mendefinisikan ketika pemain dengan simbol silang "X" memenangkan permainan tictactoe dengan menyusun tiga tanda "X" secara horizontal, vertikal, atau diagonal
+4. NOUGHT_WON: Mendefinisikan ketika pemain dengan simbol lingkaran "O" memenangkan permainan tictactoe dengan menyusun tiga tanda "O" secara horizontal, vertikal, atau diagonal
 
 
 ### Code Seed.java:
