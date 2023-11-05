@@ -24,6 +24,9 @@ Program diatas mendefinisikan 4 kemungkinan yang akan terjadi dalam permainan ti
 }
 
 Penjelasan Program:
+1. EMPTY: Merepresentasikan sel kosong di papan permainan Tic-Tac-Toe atau menandakan bahwa sel tersebut belum diisi oleh pemain manapun
+2. CROSS: Merepresentasikan tanda "X" di papan permainan Tic-Tac-Toe. Ketika pemain yang menggunakan tanda "X" memilih sebuah sel, nilai sel tersebut akan diubah menjadi silang yang menandakan bahwa sel tersebut telah diisi dengan tanda "X"
+3. NOUGHT: Merepresentasikan tanda "O" di papan permainan Tic-Tac-Toe. Ketika pemain yang menggunakan tanda "O" memilih sebuah sel, nilai sel tersebut akan diubah menjadi lingkaran yang menandakan bahwa sel tersebut telah diisi dengan tanda "O"
 
 ### Code GameState.java:
 /** * Enumeration for the various states of the game */ public enum
@@ -32,6 +35,7 @@ GameState { // to save as "GameState.java"
 }
 
 Penjelasan Program:
+Program ini memiliki fungsi yang sama seperti 
 
 ### Code Cell.java:
 import java.awt.Graphics;
