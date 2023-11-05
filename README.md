@@ -1,1 +1,1 @@
-# Modul-Praktikum-6---Permainan-TicTacToc
+# Modul-Praktikum-6-Permainan-TicTacToe
