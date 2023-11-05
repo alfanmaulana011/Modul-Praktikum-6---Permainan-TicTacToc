@@ -169,6 +169,7 @@ public class Board {
  }
 
 Penjelasan Program:
+Code ini merepresentasikan papan permainan Tic-Tac-Toe yang terdiri dari sel-sel yang dikelola oleh objek Cell. Metode-metode pada bagian ini digunakan untuk menginisialisasi, menggambar, memeriksa status permainan (apakah seri atau ada pemenang), dan mengelola status setiap sel pada papan permainan.
 
 ### Code GameMain.java:
 import java.awt.*;
@@ -316,9 +317,12 @@ public class GameMain extends JPanel {
    }
 }
 
+Penjelasan Program:
+Code ini memproses logika permainan tictactoe yang diawali dengan input dari pemain (melalui mouse click) dan tampilan GUI menggunakan Java Swing. Code ini juga mengatur pesan status di bagian bawah layar sehingga memberikan informasi hasil permainan kepada pemain dan permainan dapat dimulai ulang setelah permainan berakhir.
 
 ### Hasil
 1. Kondisi ketika permainan baru dimulai
+
 ![image](https://github.com/alfanmaulana011/Modul-Praktikum-6---Permainan-TicTacToc/assets/148432308/dcc1d948-150a-4948-bc4c-933819b4b144)
 
 2. Kondisi ketika pemain dengan simbol silang "X" memenangkan permainan
@@ -334,4 +338,3 @@ public class GameMain extends JPanel {
 
  
 
-Penjelasan Program:
