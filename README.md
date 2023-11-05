@@ -334,7 +334,6 @@ Code ini memproses logika permainan tictactoe yang diawali dengan input dari pem
 4. Kondisi ketika pemain dengan simbol lingkaran "O" memenangkan permainan
 ![image](https://github.com/alfanmaulana011/Modul-Praktikum-6---Permainan-TicTacToc/assets/148432308/92cc7b30-e6be-40f6-a362-8f47b9efa4f7)
 
-### Mengubah beberapa bagian pada program
 
  
 
